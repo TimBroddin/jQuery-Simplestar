@@ -1,0 +1,9 @@
+.simplestar {
+	width: 90px;
+	height: 8px;
+	background-image: url(star.gif);
+	background-position-x: -90px;
+	cursor: pointer;
+	margin-right: 5px;
+	float: left;
+}
