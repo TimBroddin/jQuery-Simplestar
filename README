@@ -1,0 +1,23 @@
+A very simple jQuery star plugin built for speed. You can literaly display thousands of this on a webpage with no slowdown.
+
+Usage:
+
+- Include js and css files
+- Add markup:
+
+<div class="star" data-id="" data-rating=""></div>
+
+data-id will be passed back on submit, with data-rating you can set the selected rating
+
+- Enable simplestar in your $().ready function
+
+$('.star').simpleStar(options);
+
+Options:
+
+width: the width of the star widget. Your star.gif file must be twice this size (open up stars.gif to see why)
+stars: the amount of stars
+submit: a callback funtion containing the data-id property, the selected rating and the star object 
+
+
+
